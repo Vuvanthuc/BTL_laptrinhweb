@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: arial, sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     background-color: #ffffff;
 }
 
@@ -12,13 +12,13 @@
     height: 36px;
 }
 
-.container {
+.header .container {
     width: 100%;
     border-bottom: 1px solid #cccccc;
 }
 
 .header .sns_topheader {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -31,25 +31,37 @@
 
 .header .sns_topheader .sns_topheader--left a {
     margin-right: 15px;
+    text-decoration: none;
 }
-
 .header .sns_topheader .sns_topheader--right a:not(:last-child) {
     border-right: 1px solid black;
     line-height: 36px;
 }
 
-.header .sns_topheader .sns_topheader--right a {
+.header .sns_topheader .sns_topheader--right a{
     text-decoration: none;
     padding: 1px 10px;
+}
+
+.header .container .sns_topheader a:hover {
+    color: #3cabda ;
+}
+
+.header .container .sns_topheader span {
+    cursor: pointer;
+}
+
+.header .container .sns_topheader span:hover {
+    color: #3cabda ;
 }
 
 /* main header */
 
 .sns_mainheader {
-    width: 80%;
+    width: 70%;
     height: 47px;
     margin: 0 auto;
-    padding: 32px 0;
+    padding: 40px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -58,12 +70,133 @@
     display: none;
 }
 
-.sns_mainheader .search  input {
-    width: 250px;
-    height: 47px;
-    border-radius: 50px;
-    font-size: 20px;
-    padding-left: 10px;
-    
+.header .sns_mainheader .form-seacrh {
+    position: relative;
+    float: left;
 }
+
+.header .sns_mainheader .form-seacrh .input-text {
+    border-radius: 22px;
+    border: 1px solid #d8d8d8;
+    font-size: 12px;
+    width: 235px;
+    height: 45px;
+    padding: 10px 20px;
+    color: #333;
+    background-color: #fff;
+    outline: none;
+}
+
+.header .sns_mainheader .form-seacrh .button {
+    background: url(http://demo.snstheme.com/sns-nova/skin/frontend/default/sns_nova/images/ico-search.png) no-repeat center center;
+    padding: 0 0;
+    width: 26px;
+    height: 26px;
+    border: none;
+    position: absolute;
+    top: 9px;
+    right: 11px;
+    outline: none;
+}
+
+.header .sns_mainheader .sns_mainheader--right .connect-us{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+
+.header .sns_mainheader .sns_mainheader--right .connect-us li{
+    margin-left: 5px;
+    float: left;
+    display: inline-block;
+}
+
+.header .sns_mainheader .sns_mainheader--right .connect-us li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #dfdfdf;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    color: #c9c9c9;
+}
+
+
+.header .sns_mainheader .sns_mainheader--right .connect-us li a i{
+    font-size: 20px;
+}
+
+.header .sns_mainheader .sns_mainheader--right .connect-us .facebook:hover{
+    border-color: #3197f7;
+    color: #3197f7;
+}
+
+.header .sns_mainheader .sns_mainheader--right .connect-us .twitter:hover{
+    border-color: #16def0;
+    color: #16def0
+}
+
+.header .sns_mainheader .sns_mainheader--right .connect-us .youtube:hover{
+    border-color: #e82a2a;
+    color: #e82a2a;
+}
+
+.header .sns_mainheader .sns_mainheader--right .connect-us .google:hover{
+    border-color: #e81212;
+    color: #e81212;
+}
+
+
+/* menu */
+
+.sns_menu {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.sns_menu .inner {
+    width: 100%;
+    height: 80px;
+    background: #3cabda url(http://demo.snstheme.com/sns-nova/skin/frontend/default/sns_nova/images/breadcrumbs-bg.jpg) no-repeat center top;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+/* .sns_menu:before {
+    background-image: url(http://demo.snstheme.com/sns-nova/media/wysiwyg/sl-bg.jpg);
+    background-color: #3cabda;
+    background-position: top center;
+    background-repeat: no-repeat;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.sns_menu .inner .container {
+    width: 70%;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.sns_menu .inner .container .sns_nav .sns_nav--left {
+
+} */
+
+
 
