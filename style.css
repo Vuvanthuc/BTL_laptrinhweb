@@ -539,6 +539,9 @@ input[type="button"]:hover, .button:hover, button:hover {
     color: #FFF;
     border-color: #3cabda;
 }
+.sns_content .container .sns_products .sns_products--one .row:hover button::before{
+    background-position: -3px top;
+}
 
 .sns_content .container .sns_products .sns_products--one .row button{
     font-size: 116.7%;
@@ -557,6 +560,23 @@ input[type="button"]:hover, .button:hover, button:hover {
     cursor: pointer;
 }
 
+.sns_content .container .sns_products .sns_products--one .row .products-img::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    content: "";
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all 0.4s ease-out 0.2s;
+    -moz-transition: all 0.4s ease-out 0.2s;
+    -o-transition: all 0.4s ease-out 0.2s;
+    transition: all 0.4s ease-out 0.2s;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
 .sns_content .container .sns_products .sns_products--one .row button::before{
     position: absolute;
     content: "";
@@ -570,6 +590,35 @@ input[type="button"]:hover, .button:hover, button:hover {
     -o-transition: all 0.15s ease-out;
     transition: all 0.15s ease-out;
 }
+
+.sns_content .products-img .item-box-hover {
+    z-index: 2;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    background-color: #3cabda;
+    background-color: rgba(62, 171, 218, 0.8);
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    bottom: 90px;
+    left: 0px;
+}
+
+.sns_content .products-img .item-box-hover .box-inner {
+    width: 183px;
+}
+.sns_content .products-img .item-box-hover .box-inner .actions {
+    float: left;
+    height: 51px;
+    display: block;
+}
+
+
+
+
+
 
 
 
