@@ -6,13 +6,29 @@
   background-color: #ffffff;
 }
 
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-3 {
+  display: flex;
+  flex: 0 0 21%;
+  justify-content: space-between;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
 input[type="button"]:hover,
 .button:hover,
 button:hover {
   background-color: #3cabda;
   color: #fff;
-  border-color:
-   #3cabda;
+  border-color: #3cabda;
 }
 a {
   text-decoration: none;
@@ -495,13 +511,13 @@ span {
 }
 
 .sns_products .sns_products--one {
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  flex-wrap: wrap;
 }
 
 .sns_products .sns_products--one .row {
-  width: 270px;
   height: 383px;
   border: solid 1px #e9e9e9;
   position: relative;
@@ -509,9 +525,8 @@ span {
 
 .sns_products .sns_products--one .row img {
   border-bottom: solid 1px #e9e9e9;
-  max-width: 100%;
-  max-width: 270px;
   position: relative;
+  width: 250px;
 }
 
 .sns_products .sns_products--one .row span {
@@ -958,8 +973,8 @@ span {
 }
 
 .sns_botsl .row-fluid {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .sns_botsl .container {
@@ -1010,9 +1025,9 @@ span {
 }
 
 .sns_botsl .block .block-content ul li a:hover {
-    text-decoration: none;
-    color: #3cabda;
-  }
+  text-decoration: none;
+  color: #3cabda;
+}
 
 .sns_botsl .block .block-content ul li:before {
   -webkit-transition: all 0.1s ease-out;
@@ -1030,7 +1045,7 @@ span {
 }
 
 .sns_botsl .block .block-content ul li:hover {
-    margin-left: 8px;
+  margin-left: 8px;
 }
 
 .sns_botsl .block-connectus .block-content p.c-address {
@@ -1111,7 +1126,7 @@ span {
   float: left;
   padding: 8px 15px;
   font-size: 11px;
-  margin: 20px 0 0 0 ;
+  margin: 20px 0 0 0;
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
   border-radius: 18px;
@@ -1135,10 +1150,16 @@ span {
   height: 38px;
   border: none;
   outline: none;
-
 }
 
-.sns_botsl .block-subscribe .block-content form .input-box .actions button > span {
+.sns_botsl
+  .block-subscribe
+  .block-content
+  form
+  .input-box
+  .actions
+  button
+  > span {
   width: 25px;
   height: 16px;
   display: inline-block;
@@ -1149,7 +1170,15 @@ span {
   border: none;
 }
 
-.sns_botsl .block-subscribe .block-content form .input-box .actions button > span span {
+.sns_botsl
+  .block-subscribe
+  .block-content
+  form
+  .input-box
+  .actions
+  button
+  > span
+  span {
   display: none;
 }
 
@@ -1189,7 +1218,7 @@ span {
 #sns_footer ul.payment li {
   display: inline-block;
   padding: 0 0 0 10px;
-  background: #FFF;
+  background: #fff;
   float: left;
 }
 
@@ -1250,7 +1279,8 @@ span {
 }
 
 #sns_footer .sns-info ul li {
-  background: url(http://demo.snstheme.com/sns-nova/skin/frontend/default/sns_nova/images/separated.gif) no-repeat left center;
+  background: url(http://demo.snstheme.com/sns-nova/skin/frontend/default/sns_nova/images/separated.gif)
+    no-repeat left center;
   display: inline-block;
   padding: 0 13px 0 15px;
 }
