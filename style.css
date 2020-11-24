@@ -872,7 +872,7 @@ span:hover {
   width: 100%;
 }
 
-.content .block-title {
+.content .sns_client-say .block-title {
   position: relative;
   padding: 0px 10px 10px;
   display: inline-block;
@@ -881,7 +881,7 @@ span:hover {
   color: black;
 }
 
-.content .block-title:before {
+.content .sns_client-say .block-title:before {
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
@@ -901,7 +901,7 @@ span:hover {
   z-index: 1;
 }
 
-.content .block-title:after {
+.content .sns_client-say .block-title:after {
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
@@ -923,19 +923,19 @@ span:hover {
   filter: alpha(opacity=0);
 }
 
-.content .block-content {
+.content .sns_client-say .block-content {
   overflow: hidden;
   color: #FFF;
   padding: 0 10%;
   position: relative;
 }
 
-.content .block-content .list-quotes {
+.content .sns_client-say .block-content .list-quotes {
   position: relative;
   padding: 35px 0 15px;
 }
 
-.content .owl-wrapper-outer {
+.content .sns_client-say .owl-wrapper-outer {
   overflow: hidden;
   position: relative;
   width: 100%;
