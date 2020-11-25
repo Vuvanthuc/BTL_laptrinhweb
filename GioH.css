@@ -132,3 +132,35 @@
     color: #333;
     font-size: 1.1em;
 }
+.sns_breadcrumb{
+    width: 100%;
+    height: 145px;
+    background-image: url(http://demo.snstheme.com/sns-nova/media/wysiwyg/sl-bg.jpg);
+    background-color: #3cabda;
+    background-position: top center;
+    background-repeat: no-repeat;
+  
+}
+.sns_breadcrumb .containers{
+    margin-left: auto;
+    margin-right: auto;
+    background: none;
+    
+}
+.sns_breadcrumb .row_fluid{
+    width: 80%;
+    height: 85px;
+    margin:auto;
+    padding-top: 30px;
+    background: none;
+}
+.sns_breadcrumb .row_fluid .Cart{
+    background: none;
+}
+.sns_breadcrumb .row_fluid .Cart span{
+    background:none;
+    color: #ebebeb;
+    font-size: 100%;
+}
+  
+ 
