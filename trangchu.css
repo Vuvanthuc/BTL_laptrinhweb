@@ -866,21 +866,33 @@ span:hover {
 .content .sns_client-say {
   background-image: url(http://demo.snstheme.com/sns-nova/media/wysiwyg/testimonials-bg.jpg);
   background-position: center top;
-  margin: 0 0 40px;
+  margin: 0 0 30px;
   padding: 150px 0 10px;
   text-align: center;
   width: 100%;
 }
-
+.content .sns_client-say .container{
+  background: none;
+}
 .content .sns_client-say .block-title {
   position: relative;
   padding: 0px 10px 10px;
   display: inline-block;
   font-size: 183.3%;
   text-transform: uppercase;
-  color: black;
+  color: #fff;
+  background: none;
 }
-
+.content .sns_client-say .pretext{
+  background: none;
+  color: #fff;
+  font-style: italic;
+}
+.content .sns_client-say .name{
+  background: none;
+  color: #fff;
+  margin-top: 5px;
+}
 .content .sns_client-say .block-title:before {
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
