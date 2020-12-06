@@ -1,0 +1,23 @@
+.content_right .card{
+    margin-left: 70px;
+    margin-top: 60px;
+}
+.form-control-label{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.card-header{
+    margin-bottom: 20px;
+}
+.card-header strong{
+    font-size: 25px;
+    border-bottom: 1px solid #666666;
+    
+}
+.row{
+    margin-top: 10px;
+}
+.form-control{
+    width: 400px;
+    
+}

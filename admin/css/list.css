@@ -1,0 +1,9 @@
+table, th, td {
+    border: 1px solid #666666;
+    border-collapse: collapse;
+    padding: 30px;
+  }
+.content_right .card{
+    margin-left: 70px;
+    margin-top: 60px;
+}

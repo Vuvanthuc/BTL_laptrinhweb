@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product list</title>
+    <link rel="stylesheet" href="css/dashb.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="css/product_add.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+         <span class="title">Admin Area - AAAAA</span>
+         <div class="header-left">
+          <i class="fas fa-bell" id="bell"></i>
+          <i class="fas fa-envelope" id="envelope"></i>
+           <img  class="user_avatar" src="img/admin.jpg" alt="">
+          
+         </div>
+      </div>
+  </div>
+  <div class="content">
+    <div class="content_left">
+       
+            <div class="container-3">
+                <span class="icon"><i class="fas fa-search"></i></span>
+                <input type="search" id="search" placeholder="Search..." />
+            </div>
+          
+            <div class="dashboard">
+                <ul>
+                    <li>Dashboard
+                    </li>
+                    <li>Product
+                        <ul class="sub-menu">
+                            <li><a href="product_add.html">Product-add</a></li>
+                            <li><a href="product_list.html">Product-list</a></li>
+                            <li><a href="product_edit.html">product-edit</a></li>
+                        </ul>
+                    </li>
+                    <li>Category
+                        <ul class="sub-menu">
+                            <li><a href="cate_add.html">Cate-add</a></li>
+                            <li><a href="cate_list.html">Cate-list</a></li>
+                            <li><a href="cate_edit.html">Cate-edit</a></li>
+                        </ul>
+                    </li>
+                    <li>User
+                        <ul class="sub-menu">
+                            <li><a href="user_add.html">User-add</a></li>
+                            <li><a href="user_list.html">User-list</a></li>
+                            <li><a href="user_edit.html">User-edit</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    <div class="content_right">
+                <div class="card">
+                    <div class="card-header">           
+                        <div class="">
+                            <strong class="card-title">Product Table</strong>
+                        </div>
+                    </div>
+                    <div class="table-stats">
+                        <table class="table ">
+                            <thead >
+                                <tr>
+                                    <th>ID</th>
+                                    <th class="avatar">Image</th>
+                                    <th>Name</th>
+                                    <th>Title</th>
+                                    <th>New_price</th>
+                                    <th>Old_price</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                           
+                                <tr>
+                                    <td class="id">1</td>
+                                    <td class="avatar">
+                                        <div class="round-img">
+                                            <a href="#"><img class="rounded-circle" src="img/iphone11red.jpg" alt="" style="width: 50px;height: 50px;"></a>
+                                        </div>
+                                    </td>
+                                    <td>  <span class="name">Iphone 11</span> </td>
+                                    <td> <span class="product"></span> </td>
+                                    <td><span class="price">15000000</span></td>
+                                    <td><span class="price">12000000</span></td>
+                                    <td>
+                                        <a href="">
+                                            <button type="button" class="btn btn-warning">Edit</button>
+                                        </a>
+                                        <a href="">
+                                            <button type="button" class="btn btn-danger">Delete</button>
+                                        </a>
+    
+                                    </td>
+                                </tr>
+                         
+                            </tbody>
+                        </table>
+                    </div> 
+    </div>
+    </div>
+        </div>
+</div>
+  
+</body>
+
+</html>

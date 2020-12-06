@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-Add</title>
+    <link rel="stylesheet" href="css/dashb.css">
+    <link rel="stylesheet" href="css/product_add.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <div class="header">
+          <div class="container">
+           <span class="title">Admin Area - AAAAA</span>
+           <div class="header-left">
+            <i class="fas fa-bell" id="bell"></i>
+            <i class="fas fa-envelope" id="envelope"></i>
+             <img  class="user_avatar" src="img/admin.jpg" alt="">
+            
+           </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content_left">
+           
+                <div class="container-3">
+                    <span class="icon"><i class="fas fa-search"></i></span>
+                    <input type="search" id="search" placeholder="Search..." />
+                </div>
+              
+            <div class="dashboard">
+                <ul>
+                    <li>Dashboard
+                    </li>
+                    <li>Product
+                        <ul class="sub-menu">
+                            <li><a href="product_add.html">Product-add</a></li>
+                            <li><a href="product_list.html">Product-list</a></li>
+                            <li><a href="product_edit.html">product-edit</a></li>
+                        </ul>
+                    </li>
+                    <li>Category
+                        <ul class="sub-menu">
+                            <li><a href="cate_add.html">Cate-add</a></li>
+                            <li><a href="cate_list.html">Cate-list</a></li>
+                            <li><a href="cate_edit.html">Cate-edit</a></li>
+                        </ul>
+                    </li>
+                    <li>User
+                        <ul class="sub-menu">
+                            <li><a href="user_add.html">User-add</a></li>
+                            <li><a href="user_list.html">User-list</a></li>
+                            <li><a href="user_edit.html">User-edit</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content_right">
+            <div class="card">
+                <div class="card-header">
+                    <strong>Add Product</strong>
+                </div>
+                <div class="card-body card-block">
+                    <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+                        <div class="row form-group">
+                            <div class=""><label for="text-input" class=" form-control-label">Name</label></div>
+                            <div class="col"><input type="text" id="text-input" name="name"  placeholder="samsung" class="form-control">
+                                
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class=""><label for="text-input" class=" form-control-label">Title</label></div>
+                            <div class=""><input type="text" id="text-input" name="title"  placeholder="" class="form-control">
+                                
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class=""><label for="text-input" class=" form-control-label">New price</label></div>
+                            <div class=""><input type="number" id="text-input" name="new_price" value="{{old('new_price')}}" placeholder="150000" class="form-control">
+                                
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class=""><label for="text-input" class=" form-control-label">Old price</label></div>
+                            <div class=""><input type="number" id="text-input" name="old_price" value="{{old('old_price')}}" placeholder="200000" class="form-control">
+                                
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class=""><label for="text-input" class=" form-control-label">Count</label></div>
+                            <div class=""><input type="number" id="text-input" name="count" placeholder="" class="form-control">
+                                
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class=""><label for="text-input" class=" form-control-label">Content</label></div>
+                            <div class="">
+                                <textarea class="form-control" name="content" id="exampleFromControlTextarea" rows="5" > </textarea></div>
+                        </div>
+                        <div class="row form-group">
+                            <div class=""><label for="file-input" class=" form-control-label">Image</label></div>
+                            <div class=""><input type="file" id="file-input" name="image" class="form-control-file">
+                                
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                        <div class=""></div>
+                        <div class=" ">
+                            <button  type="submit" class="btn btn-lg btn-info btn-block">
+                                Submit
+                            </button>
+                        </div>
+                        </div>
+                    </form>
+                
+            
+        </div>
+            </div>
+    </div>
+</body>
+</html>

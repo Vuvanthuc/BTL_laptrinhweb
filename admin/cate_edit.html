@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product-Edit</title>
+    <title>Category_edit</title>
     <link rel="stylesheet" href="css/dashb.css">
     <link rel="stylesheet" href="css/product_add.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -59,47 +59,40 @@
         <div class="content_right">
             <div class="card">
                 <div class="card-header">
-                    <strong>Edit Product</strong>
+                    <strong>Edit Form</strong> 
                 </div>
+
                 <div class="card-body card-block">
-                    <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+                <form action="" method="post" enctype="multipart/form-data" class="">
                         <div class="row form-group">
                             <div class=""><label for="text-input" class=" form-control-label">Name</label></div>
-                            <div class="col"><input type="text" id="text-input" name="name"  placeholder="samsung" class="form-control">
-                                
-                            </div>
+                        <div class=""><input type="text" id="text-input" name="name"  placeholder="Name" class="form-control"></div>
                         </div>
                         <div class="row form-group">
                             <div class=""><label for="text-input" class=" form-control-label">Title</label></div>
-                            <div class=""><input type="text" id="text-input" name="title"  placeholder="" class="form-control">
-                                
-                            </div>
+                            <div class=""><input type="text" id="text-input" name="title"  placeholder="Text" class="form-control"></div>
                         </div>
-                        <div class="row form-group">
-                            <div class=""><label for="text-input" class=" form-control-label">New price</label></div>
-                            <div class=""><input type="number" id="text-input" name="new_price" value="{{old('new_price')}}" placeholder="150000" class="form-control">
-                                
-                            </div>
-                        </div>
-                        <div class="row form-group">
-                            <div class=""><label for="text-input" class=" form-control-label">Old price</label></div>
-                            <div class=""><input type="number" id="text-input" name="old_price" value="{{old('old_price')}}" placeholder="200000" class="form-control">
-                                
-                            </div>
-                        </div>
-                        <div class="row form-group">
-                        <div class=""></div>
-                        <div class=" ">
+                    <div class="row form-group">
+                        <div class=""><label for="text-input" class=" form-control-label">Description</label></div>
+                        <div class=""><input type="text" id="text-input" name="description"  placeholder="Text" class="form-control"></div>
+                    </div>
+
+
+                        <div>
                             <button  type="submit" class="btn btn-lg btn-info btn-block">
                                 Submit
                             </button>
                         </div>
-                        </div>
+                </div>
                     </form>
-                
-            
+                </div>
+
+
         </div>
-            </div>
+        </div>
+
+
+        </div>
     </div>
 </body>
 </html>
