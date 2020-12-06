@@ -85,10 +85,12 @@
 	width: 28%;
 	height: 465px;
 	float: left;
+	margin-right: 30px;
 }
 .sns-content .containers .item-product .active {
 	position: relative;
 	padding-top: 300px;
+	
 }
 .sns-content .containers .item-product .active > img {
 	position: absolute;
@@ -103,12 +105,15 @@
 .sns-content .containers .item-product .active label {
 	margin: 18px 0 0 5px;
 	border: 1px solid #999;
+	border-radius: 5px;
 	float: left;
 	cursor: pointer;
 	opacity: 0.6;
 }
 .sns-content .containers .item-product .active label img {
 	display: block;
+	width: 40px;
+	height: 40px;
 }
 .sns-content .containers .item-product .active input[name = 'slide_switch']:checked + label {
 	opacity: 1;
