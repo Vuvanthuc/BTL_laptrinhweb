@@ -27,7 +27,7 @@ padding: 0;
 }
 
 .header .container .header-left i{
-  font-size: 20px;
+  font-size: 25px;
   color: #666666;
   margin-top: 10px;
   font-size: 20px;
@@ -35,13 +35,6 @@ padding: 0;
 .header .container .header-left #bell{
   margin-left: 600px;
   margin-right: 10px;
-}
-.header .container .header-left .user_avatar{
-  border-radius: 50% !important;
-  height: 40px;
-  width: 40px;
- margin-left: 15px;
- margin-top: 3px;
 }
 .content{
     width: 100%;
