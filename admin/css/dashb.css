@@ -32,10 +32,19 @@ padding: 0;
   margin-top: 10px;
   font-size: 20px;
 }
-.header .container .header-left #bell{
-  margin-left: 600px;
+.header .container .header-left a{
+  margin-left: 550px;
   margin-right: 10px;
+  font-size: 30px;
 }
+.header .container .header-left span{
+  font-size: 15px;
+}
+.header .container .header-left a span{
+  border-right: 1px solid #666666;
+  padding-right: 7px;
+}
+
 .content{
     width: 100%;
     height: 1000px;
@@ -75,11 +84,11 @@ padding: 0;
     color: #65737e;
  }
   
- .container-3 input#search:-moz-placeholder { /* Firefox 18- */
+ .container-3 input#search:-moz-placeholder { 
     color: #65737e;  
  }
   
- .container-3 input#search::-moz-placeholder {  /* Firefox 19+ */
+ .container-3 input#search::-moz-placeholder {  
     color: #65737e;  
  }
   
